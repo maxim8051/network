@@ -1,0 +1,31 @@
+p {
+    font-family:'Roboto', sans-serif;
+}
+h1 {
+    font-family:'Roboto', sans-serif;
+}
+h2 {
+    font-family:'Roboto', sans-serif;
+}
+p {
+    font-size: 13px;
+}
+body {
+    height: 100%;
+}
+.container {
+    height: 90%;
+}
+nav {
+    height: 5%;
+}
+footer {
+    height: 5%;
+}
+
+.carousel {
+    height: 500px;
+    width: 500px;
+    margin-left: 300px;
+}
+
