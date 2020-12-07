@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Montserrat; 
+    src: url(Montserrat-Light.ttf); 
+}
+a { 
+    text-decoration: none;
+    color: #FFFFFF;
+} 
+.first-screen {
+    background: linear-gradient(0deg, rgba(15, 72, 152, 0.6), rgba(15, 72, 152, 0.6)), url(Rectangle.png);
+    position: absolute;
+    width: 1920px;
+    height: 750px;
+    left: 0px;
+    top: 0px;
+}
+.line {
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 109px;
+    border: 1px solid #FFFFFF;
+}
+
+.first-screen_logo {
+    position: absolute;
+    width: 190px;
+    height: 43px;
+    left: 405px;
+    top: 33px;
+    font-family: 'Roboto', sans-serif;
+} 
+.first-screen_menu {
+    position: absolute;
+    width: 535px;
+    height: 16px;
+    left: 702px;
+    top: 47px;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.first-screen__right-block {
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    left: 1405px;
+    top: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.projects {
+    position: absolute;
+    width: 1372px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+}
+.rectangle_3 {
+    position: absolute;
+    width: 1135px;
+    height: 650px;
+    left: 0px;
+    top: 750px;
+    background: #F4F4F4;
+}
+.rectangle_6 {
+    position: absolute;
+    width: 428px;
+    height: 200px;
+    left: 547px;
+    top: 263px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+}
+.rectangle_6_text {
+    position: absolute;
+    width: 348px;
+    height: 124px;
+    left: 40px;
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #000000;
+}
+.rectangle_png {
+    position: absolute;
+    width: 427px;
+    height: 450px;
+    left: 945px;
+    top: 100px;
+    background: url(Rectangle\ 5.2.png), #B3B3B3;
+
+}
+.rectangle_31 {
+    position: absolute;
+    width: 785px;
+    height: 780px;
+    left: 1135px;
+    top: 1400px;
+    background: #F4F4F4;
+}
+.rectangle_4_img {
+    position: absolute;
+    width: 255px;
+    height: 200px;
+    background: url(Rectangle\ 4.png), #C4C4C4;
+    border-radius: 0px;
+}
+.rectangle_4 {
+    position: absolute;
+    width: 255px;
+    height: 480px;
+    top: 1603px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+}
+.rectangle_4_date {
+    position: absolute;
+    width: 64px;
+    height: 10px;
+    left: 18px;
+    top: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.05em;
+    color: #343434;
+}
+.rectangle_4_real {
+    position: absolute;
+    width: 213px;
+    height: 42px;
+    left: 18px;
+    top: 255px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #303942;
+}
+.rectangle_4_text {
+    position: absolute;
+    width: 215px;
+    height: 78px;
+    left: 18px;
+    top: 312px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.rectangle_4_button {
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    left: 18px;
+    top: 410px;
+    background: #0F4898;
+}
+.rectangle_button_text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 125px;
+    left: 0px;
+    top: 2180px;
+    background: #323232;
+}
+.footer_menu_top {
+    position: absolute;
+    width: 298px;
+    height: 13px;
+    left: 811px;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer_menu_bot {
+    position: absolute;
+    width: 537px;
+    height: 10px;
+    left: 691px;
+    top: 75px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #DCDCDC;
+}
+.projects_buttons {
+    position: absolute;
+    left: 547px;
+    top: 510px;
+    height: 40px;
+    width: 40px;
+    background-image: url(projects__button.png);
+    border: 1px solid #0F4898;
+    box-sizing: border-box;
+
+}
+.projects_buttons1 {
+    position: absolute;
+    left: 592px;
+    top: 510px;
+    height: 40px;
+    width: 40px;
+    background-image: url(projects__button1.png);
+    opacity: 0.4;
+    border: 1px solid #585858;
+    box-sizing: border-box;
+}
+.rectangle_31_button {
+    position: absolute;
+    width: 139px;
+    height: 40px;
+    left: 98px;
+    top: 108px;
+    background: #0F4898;
+}
